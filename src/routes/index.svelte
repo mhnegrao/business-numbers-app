@@ -4,7 +4,7 @@
 <section>
 	<div class="container">
 		<h1>Small Commerce App</h1>
-		<nav>
+		<!-- <nav>
 			<div class="nav-wrapper">
 
 				<ul id="nav-mobile" class="left hide-on-med-and-down">
@@ -12,6 +12,6 @@
 					<li><a href="badges.html">Login</a></li>
 				</ul>
 			</div>
-		</nav>
+		</nav> -->
 	</div>
 </section>

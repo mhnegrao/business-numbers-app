@@ -1,38 +1,29 @@
-# create-svelte
+# small-commerce-app
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+## Plataforma de auxílio para pequenos negócios, comércios e home office
 
-## Creating a project
+Instalação dos pacotes
 
-If you're seeing this, you've probably already done this step. Congrats!
+````bash
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+## Executar em desenvolvimento
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
-
-> Note: the `@next` is temporary
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Depois te ter criado o projeto e instalada as dependências com `npm install` (ou `pnpm install` ou `yarn`), inicie o servidor de desenvolvimento:
 
 ```bash
 npm run dev
 
-# or start the server and open the app in a new browser tab
+# para executar o servidor diretamente em uma nova aba do browser
+
 npm run dev -- --open
-```
+````
 
-## Building
+## Building/Produção
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
+Informações adicionais sobre com instalar o app com um [adapter], pesquise em (https://kit.svelte.dev/docs#adapters) para o ambiênte desejado. Em seguida:
 
 ```bash
 npm run build
 ```
 
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+> Você pode visualizar o aplicativo criado com `npm run preview`, independentemente de ter instalado um adaptador. Isso _não_ deve ser usado para veicular seu aplicativo em produção.
